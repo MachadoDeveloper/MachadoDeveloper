@@ -101,8 +101,8 @@ img{
 
 #secao02 p {
     color: rgb(255, 255, 255);
+    
 }
-
 
 footer {
     height: 300px;
@@ -113,6 +113,25 @@ footer {
 
 p{
     color: white;
+}
+
+.carousel slide{
+    border: #ff00d4 4px solid;
+    width: 100%;
+}
+
+.fa-angle-right{
+    color: #45bd21;
+    margin-top: auto;
+    margin-bottom: 120%;
+    margin-left:30%;
+}
+
+.fa-angle-left{
+    color: #45bd21;
+    margin-top: auto;
+    margin-bottom: 120%;
+    margin-right:30%;
 }
 
 
@@ -266,8 +285,9 @@ form input[type=submit]{
 }
 
 #ate{
-    margin-left: 7%;
-    margin-right: 0;
+    font-size:xx-large;
+    margin-left: 5%;
+    margin-right:5%;
     padding: 0;
     align-self:baseline;
 }
@@ -333,14 +353,11 @@ form input[type=submit]{
      justify-content:space-between;
        
  }
-#turnos{
-    align-self:flex-start
-    
-}
 
 #ate{
-    margin-left: 7%;
-    margin-right: 0;
+    font-size:xx-large;
+    margin-left: 5%;
+    margin-right:5%;
     padding: 0;
     align-self:baseline;
 }
