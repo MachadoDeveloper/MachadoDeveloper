@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="../Freee style/css/style.css">
+
+    <title>Reservas</title>
+    <link rel="icon" href="">
+  </head>
+  <body>
+
+    <header> <!-- inicio do Header-->
+        <nav class="navbar navbar-expand-md navbar-light navbar-transparente"> <!-- inicio da navegação--> <!--fixed-top removed-->
+            <div class="container"> <!--Inicio do container fluido class="container-fluid" percebi so a margem menor-->
+        
+            <a href="index.html " class="navbar-brand">
+                <img id="logotipo" src="../Freee style/imagens/royalplacelogo1.png"  class="" alt="logo">
+            </a> 
+           
+            <!--<a class="navbar-brand" href="#">Spotify</a> foi substituida pela imagem correta spotify.svg-->
+            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuTopo" aria-controls="menuTopo" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> configuração do bootstrap site-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menuTopo">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+
+                <menu class="collapse navbar-collapse" id="menuTopo">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <!--usou ml-auto, mas poderia ser:
+                            ml-auto => bootstrap 4 margin left-auto
+                            me-auto => bootstrap 5 margin end-auto-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Menu01</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Menu02</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Menu03</a>
+                        </li>
+
+                        <li class="nav-item divisor"></li>
+                            
+                        <li class="nav-item">
+                            <a  class="nav-link" href="">Cadastre-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  class="nav-link" href="">Entrar</a>
+                        </li>
+                    </ul>
+                </menu>
+
+
+            </div>  <!--/fim do container fluido-->
+        </nav><!-- /fim da navegação-->
+    </header> <!-- /fim  do Header-->
+
+    <section id="secao-login" class=""> <!-- inicio secao formulario-->
+
+
+        <div class="container-login d-flex justify-content-center  "> <!-- formmulario container-->
+
+          <form id="loginCliente" class="mb-2 d-flex  flex-column  align-items-center mt-5 ml-2 mb-5">
+            
+            <div class="mt-3  ">
+                <label for="entradaNome" ><strong>Login:</strong></label>
+                <input type="text" id="nome" class="form-control" aria-describedby="nomeUsuario" placeholder="digite seu usuário" required>
+            </div>
+
+            <div class="mt-3">
+                <label for="entradaNome" ><strong>Senha:</strong></label>
+                <input type="password" id="senha" class="form-control" aria-describedby="senhaUsuario" placeholder="digite sua senha" required>
+            </div>
+
+            <div class="d-grid gap-2 d-md-block mt-5 mb-5">
+                <button class="btn  btn-dark" type="submit" value="submit">Entrar</button>
+            </div>  
+            
+            
+          </form>
+
+        </div>   <!-- /fim formmulario container-->
+    </section><!-- /fim  secao  formulario-->
+
+   
+
+    <footer>
+      <div class="row d-flex">
+        <div class="col-md-4 justify-content-center text-center">
+          <ul class="">
+            <li class=""><a href="">link</a></li>
+            <li class=""><a href="">link</a></li>
+            <li class=""><a href="">link</a></li>
+            <li class=""><a href="">link</a></li>
+            <li class=""><a href="">link</a></li>
+          </ul>
+
+        </div>
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit semper metus, vel varius neque pretium vel.
+            vel varius neque pretium vel. Proin lobortis aliquet eros, sed pulvinar elit aliquam id. Nullam congue tincidunt urna, 
+            eleifend ultrices tellus finibus non. Sed libero dui, dictum fermentum finibus ut, 
+            pellentesque tincidunt mi. Nulla blandit, lorem eget viverra mattis, nibh felis fringilla lectus,
+          </p>
+
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </footer>
+
+   
+
+    
+
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
